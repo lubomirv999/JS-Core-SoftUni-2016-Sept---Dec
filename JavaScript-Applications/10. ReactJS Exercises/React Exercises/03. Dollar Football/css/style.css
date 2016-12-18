@@ -1,0 +1,108 @@
+body {
+
+}
+
+body .wrapper {
+    width: 95%;
+    height: 90vh;
+    padding: 2.5vh 2.5% 2.5vh 2.5%;
+}
+
+body .wrapper header {
+    width: 100%;
+    height: 10vh;
+    background-color: #00008B;
+}
+
+body .wrapper header div {
+    padding-top: 0.2vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: #DAA520;
+}
+
+body .wrapper .button-holder {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body .wrapper .button-holder button {
+    margin: 2vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+body .wrapper .button-holder button:focus {
+    outline: 0;
+}
+
+body .wrapper .content-holder {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body .wrapper .content-holder table {
+    border: 5px solid #DCDCDC;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding-bottom: 5vh;
+}
+
+body .wrapper .content-holder table tr {
+    border-bottom: 3px solid #000000;
+}
+
+body .wrapper .content-holder table tr:last-child {
+    border-bottom: none;
+}
+
+body .wrapper .content-holder table tr th {
+    padding: 2.5vh;
+    font-size: 2vw;
+    background-color: #696969;
+    color: #FFFFFF;
+    border-right: 3px solid #DCDCDC;
+}
+
+body .wrapper .content-holder table tr th:last-child {
+    border-right: none;
+}
+
+body .wrapper .content-holder table tr td {
+    padding: 2vh;
+    font-size: 1.25vw;
+    text-align: center;
+    border-right: 3px solid #DCDCDC;
+}
+
+body .wrapper .content-holder table tr td:last-child {
+    border-right: none;
+}
+
+body .wrapper .content-holder table tr td input {
+    width: 10vw;
+    font-size: 1.5vw;
+    text-align: right;
+}
+
+body .wrapper .content-holder table tr td select {
+    font-size: 2vw;
+}
+
+body .wrapper .content-holder table tr td select option {
+    font-size: 2vw;
+}
+
+body .wrapper .content-holder table tr td button {
+    width: 7vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 2vh;
+}
